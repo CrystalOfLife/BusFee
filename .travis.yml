@@ -2,6 +2,8 @@ language: C#
 mono: none
 dotnet: 2.0.0
 dist: trusty
+install:
+- dotnet restore
 script:
 - dotnet build
 - dotnet test C:\Users\Nicolai\Documents\GitHub\BusFee.csproj
