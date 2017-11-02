@@ -6,7 +6,7 @@ install:
 - dotnet restore
 script:
 - dotnet build
-- dotnet test C:\Users\patrick\Documents\Visual Studio 2017\Projects\Bus_Fee\Bus_Fee.sln
+- dotnet test C:\Users\Nicolai\Documents\GitHub\BusFee.csproj
 branches:
   only:
   - master
